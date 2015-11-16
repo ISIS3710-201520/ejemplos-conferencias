@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="conferencesApp">
+
+  <head>
+    <script data-require="angular.js@1.4.6" data-semver="1.4.6" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.6/angular.js"></script>
+    <script data-require="angular-route@*" data-semver="1.4.6" src="https://code.angularjs.org/1.4.6/angular-route.js"></script>
+    <script data-require="firebase@*" data-semver="2.2.9" src="https://cdn.firebase.com/js/client/2.2.9/firebase.js"></script>
+    <script data-require="angularfire@*" data-semver="1.1.1" src="//cdn.firebase.com/libs/angularfire/1.1.1/angularfire.js"></script>
+    
+    <link rel="stylesheet" href="styles/style.css" />
+  
+    <script src="app/conferencesApp.js"></script>
+    <script src="app/conferenceService.js"></script>
+    <script src="app/conferenceEditController.js"></script>
+    <script src="app/conferenceListController.js"></script>
+  
+  </head>
+  <body>
+    
+    <h1>Conferencias</h1>
+    [ <a href="#/">Inicio</a> ] 
+    <hr/>
+  
+    <div data-ng-view></div>
+    
+  </body>
+</html>

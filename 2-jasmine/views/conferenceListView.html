@@ -1,0 +1,16 @@
+<div>
+  
+  Conferences
+  <hr/>
+  
+  <ul>
+    <li ng-repeat="conference in conferences">
+      {{conference.id}} : {{conference.name}}
+      <button ng-click="editConference(conference)">Edit</button>
+    </li>
+  </ul>
+  
+  <hr/>
+  <button ng-click="addConference()">Add</button>
+  
+</div>

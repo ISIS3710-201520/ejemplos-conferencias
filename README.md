@@ -1,12 +1,5 @@
-# Ejemplo de Conferencias : pruebas con PhantomJS + Jasmine
+# Ejemplo de Conferencias : uso de FireBase
 
-Este proyecto incluye un ejemplo de pruebas para un servicio en AngularJS.
-Si se desean crear nuevas pruebas, es necesario modificar `spec/ConferencesSpec.js`.
-
-## Ejecución
-
-Para ejecutar las pruebas, es necesario correr el comando:
-
-```
-phantomjs spec/run-jasmine.js spec/SpecRunner.html
-```
+Ejemplos de aplicaciones en [AngularJS](https://angularjs.org/) 
+que usan bases de datos [FireBase](https://www.firebase.com/) mediante la librería [AngularFire](https://www.firebase.com/docs/web/libraries/angular/).
+Los ejemplos incluyen también pruebas de unidad realizadas en [Jasmine](http://jasmine.github.io/) y que se ejecutan usando [PhantomJS](http://phantomjs.org/).
